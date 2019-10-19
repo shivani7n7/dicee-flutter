@@ -23,7 +23,7 @@ class DicePage extends StatefulWidget {
 
 class _DicePageState extends State<DicePage> {
   int leftDiceNo = 1;
-  int rightDiceNo = 2;
+  int rightDiceNo = 1;
   void changeState() {
     setState(() {
       leftDiceNo = Random().nextInt(6) + 1;
